@@ -215,7 +215,16 @@ body {
     background-color: #45a049;
   }
   
+  .product-button:disabled,
   .product-button.added-to-cart {
+    background-color: grey; /* Grey when product is added */
+    color: white;
+    opacity: 0.8;
+    cursor: not-allowed;
+    border: 1px solid #5a6268;
+  }
+
+  .product-button.added-to-cart:hoverh {
     background-color: grey; /* Grey when product is added */
   }
   @media (max-width: 1200px) {
