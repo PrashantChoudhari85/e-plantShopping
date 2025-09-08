@@ -4,6 +4,12 @@ body, h1, ul {
     padding: 0;
 }
 
+.categoryTitle {
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+
 /* Set a background color */
 body {
     font-family: Arial, sans-serif;
@@ -46,7 +52,9 @@ body {
     width: 100vw;
     align-items: center;
     justify-content: center;
+   
 }
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
