@@ -1,6 +1,6 @@
 /* Reset some default styles */
 body, h1, ul {
-    margin-left: 100;
+    margin-left: 0;
     padding: 0;
 }
 
